@@ -6,8 +6,6 @@ const _PATH_TO_TEST = joinpath(_ROOT, "test")
 # check:
 const _DID_INCLUDE_GET_CALLED = true; # only true if this file was called
 
-using Pkg
-
 # external packages -
 using Test
 using UnicodePlots
